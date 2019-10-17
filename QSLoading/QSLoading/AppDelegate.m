@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "freeViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    // 测试循环引用，查看是否有释放
+//    __weak typeof(self) weakSelf = self;
+//    [NSTimer scheduledTimerWithTimeInterval:10 repeats:YES block:^(NSTimer * _Nonnull timer) {
+//        weakSelf.window.rootViewController = [[freeViewController alloc] init];
+//        NSLog(@"已经切换根视图，请查看内存释放");
+//    }];
+    
     return YES;
 }
 

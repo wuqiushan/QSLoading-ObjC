@@ -15,6 +15,7 @@
 		AE16E91B234C63C800260D78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE16E91A234C63C800260D78 /* main.m */; };
 		AE16E925234C651B00260D78 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = AE16E924234C651B00260D78 /* loading.png */; };
 		AE16E92B234C760800260D78 /* QSLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = AE16E92A234C760800260D78 /* QSLoading.m */; };
+		AED483AB23570CD60068ACCF /* freeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED483AA23570CD60068ACCF /* freeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		AE16E924234C651B00260D78 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
 		AE16E929234C760800260D78 /* QSLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSLoading.h; sourceTree = "<group>"; };
 		AE16E92A234C760800260D78 /* QSLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSLoading.m; sourceTree = "<group>"; };
+		AED483A923570CD60068ACCF /* freeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = freeViewController.h; sourceTree = "<group>"; };
+		AED483AA23570CD60068ACCF /* freeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = freeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				AE16E916234C63C800260D78 /* LaunchScreen.storyboard */,
 				AE16E919234C63C800260D78 /* Info.plist */,
 				AE16E91A234C63C800260D78 /* main.m */,
+				AED483A923570CD60068ACCF /* freeViewController.h */,
+				AED483AA23570CD60068ACCF /* freeViewController.m */,
 			);
 			path = QSLoading;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 			files = (
 				AE16E92B234C760800260D78 /* QSLoading.m in Sources */,
 				AE16E910234C63C600260D78 /* ViewController.m in Sources */,
+				AED483AB23570CD60068ACCF /* freeViewController.m in Sources */,
 				AE16E91B234C63C800260D78 /* main.m in Sources */,
 				AE16E90D234C63C600260D78 /* AppDelegate.m in Sources */,
 			);

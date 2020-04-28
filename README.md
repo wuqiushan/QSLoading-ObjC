@@ -2,7 +2,6 @@
 
 ### 概述
 本框架为iOS版的加载库，使用类方法，使用非常方便。
-<img src="https://github.com/wuqiushan/QSLoading-ObjC/blob/master/QSLoading.gif" width="400" height="790">
 
 ### 使用方法
 ```Objective-C
@@ -10,6 +9,6 @@
         NSLog(@"消失回调");
     }];
 ```
-
+![](https://github.com/wuqiushan/QSLoading-ObjC/blob/master/QSLoading.gif)
 ### 许可证
 所有源代码均根据MIT许可证进行许可。

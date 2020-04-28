@@ -2,8 +2,7 @@
 
 ### 概述
 本框架为iOS版的加载库，使用类方法，使用非常方便。
-![Alt Text](https://github.com/wuqiushan/QSLoading-ObjC/blob/master/QSLoading.gif)
-
+<img src="https://github.com/wuqiushan/QSLoading-ObjC/blob/master/QSLoading.gif" width="400" height="790">
 
 ### 使用方法
 ```Objective-C
